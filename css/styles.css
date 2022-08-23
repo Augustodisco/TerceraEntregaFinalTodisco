@@ -106,7 +106,7 @@ footer {
     box-sizing: border-box;
     border-radius: 40px;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6) ;
-  }
+}
   
   .login-box h2{
    margin: 0 0 30px;
@@ -114,12 +114,12 @@ footer {
    color: #fff;
    text-align: center;
   
-  }
+}
   
   .login-box .user{
    position: relative;
   
-  }
+}
   .login-box .user input{
    width: 100%;
    padding: 10px 0;
@@ -130,7 +130,7 @@ footer {
    border-bottom: 1px solid #fff;
    outline: none;
    background: transparent;
-  }
+}
   
   .login-box .user label{
    padding: 10px 0;
@@ -141,7 +141,7 @@ footer {
    left: 0;
    pointer-events: none;
    transition: .5s;
-  }
+}
   
   .login-box .user input:focus ~label,
   .login-box .user input:valid ~label{
@@ -167,7 +167,7 @@ footer {
     letter-spacing: 4px;
   }
   
-  .login-box a:hover{
+.login-box a:hover{
   
     background:#03e9f4 ;
     color: #fff;
@@ -176,14 +176,14 @@ footer {
     0 0 25px #03e9f4, 0 0 50px #03e9f4,
     0 0 100px #03e9f4);
   
-  }
+}
   
   .login-box a span{
   
     position:absolute;
     display: block;
   
-  }
+}
   
   .login-box a span:nth-child(1){
     top: 0;
@@ -193,7 +193,7 @@ footer {
     background: linear-gradient(90deg, transparent,#03e9f4);
     animation: btn-anim1 1s linear infinite;
   
-  }
+}
   
   @keyframes btn-anim1 {
     0%{

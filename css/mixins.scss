@@ -1,0 +1,43 @@
+/*mixin sin parametros*/
+
+
+@mixin footer-caracteristicas {
+    background-color: grey;
+    width: 100%;
+    height: 100px;
+    padding: 50px 0 0 0;
+    text-align: center;
+    
+}
+
+@mixin cajalogin-caracteristicas {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6) ;
+}
+
+.footer{
+    @include footer-caracteristicas()
+
+}
+
+.login-box{
+    @include cajalogin-caracteristicas()
+}
+
+/*mixin con parametros*/
+@mixin contenidoprincipal{
+    color: $color;
+
+}
+
+.contenido{
+    @include contenidoprincipal(#EFF4F7)
+}

@@ -1,0 +1,32 @@
+$contenidos:(contenido: #EFF4F7, contenido2:#38f935, contenido3:#74f67a , contenido4:#58fe32 ,
+contenido5: #57ff54 ,contenido6:#24fa36 , contenido7: #97f092 );
+
+@each $clave, $color in $contenidos {
+    .#{$clave}{
+        background-color: $color;
+    }
+    
+    
+}
+
+/*mapa con get*/
+
+/*$h1header:(colorh1: lime, tamaño-fuente: 2.5rem, alineacion: center, pading: 40px);
+
+.header h1 {
+    color: map-get($h1header,colorh1);
+    font-size:map-get($h1header, tamaño-fuente );
+    text-align:map-get($h1header, alineacion );
+    padding:map-get($h1header, pading); }*/
+
+
+
+
+
+$menuflex:(colorcito: #4c00ff, decoracion-texto: none);
+
+.flexMenu li a {
+    color: map-get($menuflex,colorcito);
+    text-decoration: map-get($menuflex,decoracion-texto); }
+
+
